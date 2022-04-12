@@ -1,0 +1,67 @@
+
+.profileCover{
+    height: 230px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px rgb(223, 221, 221);
+}
+
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-top: 25%;
+}
+.profileInfo{
+    margin-left: 13%;
+    margin-top: 6%;
+}
+.userInformation{
+    display: flex;
+    flex-direction: row;
+}
+.userFollowerInformationBox{
+    display: flex;
+    flex-direction: row;
+}
+.userFollowerInformation{
+    margin-right: 4vw;
+}
+.profileInfoName{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+}
+
+.followButton{
+    font-size: small;
+    font-weight: 500;
+    padding: 2px 5px;
+    height: 100%;
+    border-radius: 3px;
+    border: 0.5px solid rgb(212, 212, 212);
+    margin-left: 1vw;
+    margin-top: 1vh;
+    background-color: rgb(249, 251, 255);
+}
+.moreVertButton{
+    padding: 0px 8px;
+    height: 100%;
+    border-radius: 3px;
+    border: 0.5px solid rgb(212, 212, 212);
+    margin-left: 1vw;
+    margin-top: 1vh;
+    background-color: rgb(249, 251, 255);
+}
+
+.profileRightBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #f2f7fc;
+}

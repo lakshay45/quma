@@ -1,0 +1,93 @@
+.body{
+  background-color: rgb(216, 224, 255);
+  height: 100vh;
+  padding-top:10vh;
+  padding-left: 10vw;
+}
+.login {
+  width: 80vw;
+  height: 80vh;
+  background-color:white;
+  display: flex;
+  border-radius: 10px;
+}
+.leftCardSide{
+  width: 60vw;
+}
+.rightCardSide{
+  padding: 50px;
+  min-width: 35vw;
+}
+.loginDetailsInput{
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 90%;
+  margin: 20px;
+  border-color: rgb(190, 190, 190);
+  outline: none;
+}
+
+.qumaIcon{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.loginDesc {
+  font-size: 24px;
+  color: white;
+}
+
+.loginButton{
+    width: 130px;
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+  /* background-color: rgb(151, 62, 192); */
+  background-color: rgb(26, 26, 165);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.loginButton:hover{
+  background-color: rgb(11, 11, 141);
+}
+
+.loginButton:focus{
+  outline: none;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+}
+.loginBox{
+  max-height: 32vh;
+  max-width: 60vw;
+  overflow: scroll
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.loginBox::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.loginBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.loginForgot{
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(26, 26, 165);
+    padding-left: 20px;
+    padding-top: 10px;
+}

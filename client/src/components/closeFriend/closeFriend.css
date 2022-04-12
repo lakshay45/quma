@@ -1,0 +1,33 @@
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    overflow: hidden;
+    max-height: 60vh;
+  }
+  
+  .sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+.viewProfileSuggestionButton{
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 165);
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.viewProfileSuggestionButton:hover{
+  background-color: rgb(19, 19, 128);
+  color: white;
+}

@@ -1,0 +1,11 @@
+.addNameLabel{
+    padding: 30px 0px 0px 0px;
+    color: rgb(102, 101, 101);
+    font-weight: normal;
+}
+.inputs{
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}

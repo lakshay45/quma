@@ -1,0 +1,9 @@
+.feed{
+    width: 50vw;
+    border-radius: 10px;
+    min-height: 100vh;
+}
+
+.feedWrapper{
+    padding: 40px;
+}
